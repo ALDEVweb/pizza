@@ -1,0 +1,243 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.back-white{background-color: #ffffffe0;}
+.back-grey{background-color: #e0e0e0e8;}
+.back-blue{background-color: #0288D1;}
+.back-green{background-color: #4CAF50;}
+.opt-select{background-color: #a5d6a7e0;}
+.opt-unselect{background-color: #f0f0f0e1;}
+
+.vert{color: #2E7D32;}
+.white{color: #FFFFFF;}
+.rouge{color: #D32F2F;}
+
+.back-recap{
+    background-color: #ffffff7c;
+    backdrop-filter: blur(1px);
+}
+
+.mrlauto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.mt20p{margin-top: 20%;}
+.mt4{margin-top: 4px;}
+.mt8{margin-top: 8px;}
+.mt16{margin-top: 16px;}
+.mt32{margin-top: 32px;}
+.mt80{margin-top: 80px;}
+.mr16{margin-right: 16px;}
+.gap4{gap: 4px;}
+.gap16{gap: 16px;}
+.mb32{margin-bottom: 32px;}
+
+.btnPad{padding: 4px 8px;}
+.padRecap{padding: 2px 4px;}
+.pad4{padding: 4px;}
+.pad8{padding: 8px;}
+.pad16{padding: 16px;}
+
+.wfit{width: fit-content;}
+.wauto{width: auto;}
+.w80p{width: 80%;}
+.w100p{width: 100%;}
+.w50{width: 50px;}
+.w70{width: 70px;}
+.w90{width: 90px;}
+.w150{width: 150px;}
+.w160{width: 160px;}
+.w200{width: 200px;}
+.w300{width: 300px;}
+
+.fs10{font-size: 10px;}
+.fs12{font-size: 12px;}
+.fs14{font-size: 14px;}
+.fs16{font-size: 16px;}
+.fs18{font-size: 18px;}
+.fs20{font-size: 20px;}
+.fs24{font-size: 24px;}
+.fs32{font-size: 32px;}
+
+.h30{height: 30px;}
+.h40{height: 40px;}
+.h50{height: 50px;}
+.h60{height: 60px;}
+.h80{height: 80px;}
+.h100{height: 100px;}
+.h100v{height: 100vh;}
+.h100v-80{height: calc(100vh - 80px);}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.d-none{display: none;}
+.block{display: block;}
+.j-center{justify-content: center;}
+.j-between{justify-content: space-between;}
+.j-around{justify-content: space-around;}
+.j-end{justify-content: end;}
+.a-center{align-items: center;}
+.a-between{align-items: space-between;}
+.txt-center{text-align: center;}
+
+.b-none{border: none;}
+.radius5{border-radius: 5px;}
+.radius10{border-radius: 10px;}
+.radius50p{border-radius: 50%;}
+
+ul li {list-style: none;}
+:visited, :active, :link{text-decoration: none;}
+
+body{
+    /*background-color: #FFFFFF;*/
+    color: #212121;
+    position: relative;
+}
+
+a {color: #2E7D32;}
+
+.header{height: 80px;}
+
+.oeil{
+    width: 30px;
+    height: 20px;
+}
+
+.oeil img{
+    width: auto;
+    height: 100%;
+}
+
+.recap{
+    width: 90px;
+    height: 45px;
+    position: relative;
+    border: solid 1px #E0E0E0;
+    border-radius: 10px;
+}
+
+#recap-compo{height: 143px; align-items: space-between;}
+
+.back{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 1;
+    border-radius: 10px;
+}
+.petite{background-image: url("../assets/petite.jpg");}
+.moyenne{background-image: url("../assets/moyenne.jpg");}
+.grande{background-image: url("../assets/grande.jpg");}
+.fine{background-image: url("../assets/fine.jpg");}
+.epaisse{background-image: url("../assets/epaisse.jpg");}
+.calzone{background-image: url("../assets/calzone.jpg");}
+.tomate{background-image: url("../assets/tomate.jpg");}
+.creme{background-image: url("../assets/creme.jpg");}
+.mozzarella{background-image: url("../assets/mozzarella.jpg");}
+.chevre{background-image: url("../assets/chevre.jpg");}
+.cheddar{background-image: url("../assets/cheddar.jpg");}
+.parmesan{background-image: url("../assets/parmesan.jpg");}
+.camembert{background-image: url("../assets/camembert.jpg");}
+.tomates_cerise{background-image: url("../assets/tomates_cerise.jpg");}
+.comte{background-image: url("../assets/comte.jpg");}
+.emmental{background-image: url("../assets/emmental.jpg");}
+.fourme{background-image: url("../assets/fourme.jpg");}
+.auvergne{background-image: url("../assets/auvergne.jpg");}
+.rochebaron{background-image: url("../assets/rochebaron.jpg");}
+.pepperoni{background-image: url("../assets/pepperoni.jpg");}
+.jambon_cru{background-image: url("../assets/jambon_cru.jpg");}
+.anchois{background-image: url("../assets/anchois.jpg");}
+.knacky{background-image: url("../assets/knacky.jpg");}
+.saumon{background-image: url("../assets/saumon.jpg");}
+.jambon{background-image: url("../assets/jambon.jpg");}
+.chorizo{background-image: url("../assets/chorizo.jpg");}
+.poulet{background-image: url("../assets/poulet.jpg");}
+.hache{background-image: url("../assets/viande_hache.jpg");}
+.bacon{background-image: url("../assets/bacon.jpg");}
+.saucisse{background-image: url("../assets/saucisse.jpg");}
+.champignon{background-image: url("../assets/champignon.jpg");}
+.aubergine{background-image: url("../assets/aubergine.jpg");}
+.courgette{background-image: url("../assets/courgette.jpg");}
+.piment{background-image: url("../assets/piment.jpg");}
+.miel{background-image: url("../assets/miel.jpg");}
+.oeuf{background-image: url("../assets/oeuf.jpg");}
+.poivrons{background-image: url("../assets/poivrons.jpg");}
+.olives{background-image: url("../assets/olives.jpg");}
+.tomates_seche{background-image: url("../assets/tomates_seche.jpg");}
+.oignon{background-image: url("../assets/oignon.jpg");}
+.basilic{background-image: url("../assets/basilic.jpg");}
+#banniere{
+    background-image: url("../assets/banniere_carte.jpg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+
+.swiper {
+    width: 300px;
+    height: 340px;
+    background-image: url("../assets/arriere_plan.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#containIngredient{
+    height: 275px;
+    overflow-y: auto;
+}
+
+.blur{
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #a5d6a734;
+    backdrop-filter: blur(5px);
+}
+
+
+.arriere-plan{
+    z-index: -1;
+    position: absolute;
+    top: 80px;
+    left: 0;   
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.2;
+}
+#elaboration{
+    background-image: url("../assets/arriere_elab.jpg");
+}
+#finalisation{
+    background-image: url("../assets/arriere_finalisation.jpg");
+}
+#connexion{
+    background-image: url("../assets/arriere_connexion.jpg");
+}
+#creation{
+    background-image: url("../assets/arriere_plan_creation.jpg");
+}
+
+#affichage-mdp{
+    background-color: rgba(255, 255, 255, 0.781);
+    height: 20px;
+}
+
+#pop-oubli{
+    backdrop-filter: blur(5px);
+    position: absolute;
+    z-index: 1;
+    top: 80px;
+    left: 0;
+}
